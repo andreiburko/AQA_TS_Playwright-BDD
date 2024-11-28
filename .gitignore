@@ -1,6 +1,5 @@
 js/
 node_modules/
-package-lock.json
 .features-gen/
 playwright-report/
 test-results/
