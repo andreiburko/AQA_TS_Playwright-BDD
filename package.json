@@ -1,0 +1,24 @@
+{
+  "name": "playwright_bdd",
+  "version": "1.0.0",
+  "description": "Task to implement BDD aproach with the Playwright framework for testing web-aplication",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test",
+    "test-headed": "npx bddgen && npx playwright test --headed",
+    "test-ui": "npx bddgen && npx playwright test --ui"
+  },
+  "keywords": [
+    "Typescript",
+    "Playwright-BDD"
+  ],
+  "author": "Andrei Burko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.9",
+    "dotenv": "^16.4.5",
+    "playwright-bdd": "^7.5.0",
+    "typescript": "^5.6.3"
+  }
+}
